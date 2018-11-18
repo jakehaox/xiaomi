@@ -1,0 +1,36 @@
+.top{
+	background: yellow;
+}
+.top .top-nav{
+	float: left;
+    width: 382px;
+    height: 40px;
+    background: pink;
+}
+.top .user-info{
+
+}
+.top .cart{
+
+}
+
+.header{
+   height: 100px;
+   background: blue;
+}
+.home{
+   height: 1272px;
+   background: pink;
+}
+.main{
+   height: 2058px;
+   background: gray;
+}
+.footer{
+   height: 277px;
+   background: purple;
+}
+.end{
+  height: 148px;
+  background: green;
+}
