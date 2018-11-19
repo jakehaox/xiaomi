@@ -1,3 +1,17 @@
+/*
+*首页共同样式
+*/
+.col1{
+   width: 234px;
+   float: left;
+}
+.col2{
+	width: 978px;
+	float: left;
+	margin-left: 14px;
+}
+
+
 .top{
 	background: #333;
 	height: 40px;
@@ -64,7 +78,7 @@
 	height: 100%;
 	background-image: url(../image/logo.png);
 	background-repeat: no-repeat;
-	background-position:center -2px;
+	background-position:center 1px;
 	text-indent: -9999em;
 }
 .header .header-nav{
@@ -143,6 +157,7 @@
 	border-top: none;
 	box-sizing: border-box;
 	background: #fff;
+	z-index: 999;
 }
 .header .search .search-keyword-list .keyword-item{
 	height: 30px;
@@ -201,6 +216,7 @@
 .home .banner{
 	position: relative;
 	height: 460px;
+	margin-bottom: 15px;
 }
 .home .banner .cate{
 	position: absolute;
@@ -209,18 +225,123 @@
 	width:234px;
 	height: 460px;
 	background: rgba(0,0,0,0.5);
+	z-index: 999;
 }
 .home .banner .cate .cate-item{
 	height: 42px;
 	line-height: 42px;
 	font-size: 13px;
+	padding: 4px 20px 0px 30px;
+	color:#fff;
 	cursor: pointer;
+}
+.home .banner .cate .cate-item:hover{
+    background: #ff6700;
+}
+.home .banner .cate .cate-item i{
+	float: right;
 }
 .home .banner .carousel{
 	height: 100%;
-	background: pink;
+	position: relative;
 }
-
+.home .banner .carousel .carousel-imgs-item{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+}
+.home .banner .carousel .arrow{
+	position: absolute;
+	top: 50%;
+	z-index: 888;
+	width: 40px;
+	height: 80px;
+	line-height: 80px;
+	margin-top: -40px;
+	font-size: 30px;
+	color: #eee;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+.home .banner .carousel .arrow:hover{
+	background: rgba(0,0,0,0.4);
+}
+.home .banner .carousel .left-arrow{
+    left: 234px;
+}
+.home .banner .carousel .right-arrow{
+	right: 0px;
+}
+.home .banner .carousel .carousel-imgs-item img{
+	width: 100%;
+	height: 460px;
+}
+.home .banner .carousel .carousel-btn{
+	position: absolute;
+	right: 35px;
+	bottom: 24px;
+	z-index: 888;
+}
+.home .banner .carousel .carousel-btn li{
+	float: left;
+	width: 5px;
+	height: 5px;
+	border:4px solid #b5b3bd;
+	background: #96938a;
+	border-radius: 50%;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.home .banner .carousel .carousel-btn li:hover{
+	border-color: #979590;
+	background:#fcf9f0;
+}
+.home .hot{
+	height: 170px;
+	margin-bottom: 25px;
+}
+.home .hot .hot-chanel{
+	height: 170px;
+	background: #5f5750;
+}
+.hot .hot-chanel .hot-chanel-item{
+	float: left;
+	width: 78px;
+	height: 85px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.hot .hot-chanel .hot-chanel-item i{
+	display: block;
+	font-size: 26px;
+}
+.home .hot .hot-chanel .hot-chanel-item .right-line:after{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 78px;
+	content: "";
+	width: 1px;
+	height: 70px;
+	background: #eee;
+}
+.home .hot .hot-chanel .hot-chanel-item .top-line:after{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 8px;
+	content: "";
+	width: 65px;
+	height: 1px;
+	background: red;
+}
+ .home .hot .hot-promo{
+ 	height: 170px;
+ 	background: purple;
+ }
 
 .main{
     height: 2058px;
