@@ -1,36 +1,236 @@
 .top{
-	background: yellow;
+	background: #333;
+	height: 40px;
 }
 .top .top-nav{
 	float: left;
-    width: 382px;
     height: 40px;
-    background: pink;
+    font-size: 12px;
+}
+.top .top-nav .top-nav-item{
+	float: left;
+	line-height: 40px;
+	list-style: none;
+}
+.top .sep{
+	color: #42423b;
+	margin: 0 0.5em;
 }
 .top .user-info{
-
+    float: right;
+    width: 160px;
+}
+.top .user-info .user-info-item{
+    float: left;
+    height: 40px;
+    line-height: 40px;
 }
 .top .cart{
-
+    float: right;
+    width: 120px;
+    height: 40px;
+    background: red;
+    background: #424242;
+}
+.top .cart .cart-box a{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.top .cart .cart-box .icon-cart{
+	font-size: 20px;
+	vertical-align: -4px;
+}
+.top .cart .cart-box a:hover{
+	background: #fff;
+	color: #ff6700;
 }
 
 .header{
-   height: 100px;
-   background: blue;
+    height: 100px;
 }
+.header .logo{
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin-top: 22px;
+    background: #ff6700;
+}
+.header .logo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url(../image/logo.png);
+	background-repeat: no-repeat;
+	background-position:center -2px;
+	text-indent: -9999em;
+}
+.header .header-nav{
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 190px;
+    list-style: none;
+}
+.header .header-nav .header-nav-item{
+    float: left;
+    margin-left: 20px;
+}
+.header .header-nav .header-nav-item a{
+    font-size: 16px;
+    color: #333;
+}
+.header .header-nav .header-nav-item a:hover{
+	color: #ff6700;
+}
+
+.header .search{
+	float: right;
+    width: 296px;
+    height: 50px;
+    margin-top: 25px;
+    position: relative;
+}
+.header .search .search-text{
+	float: left;
+    width: 246px;   
+    height: 100%;
+    border: 1px solid #e0e0e0;
+    border-right: none;
+    outline: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.header .search .search-btn{
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border:1px solid #e0e0e0;
+    box-sizing: border-box;
+    font-size: 18px;
+    cursor: pointer;
+}
+.header .search .search-btn:hover{
+	background: #ff6700;
+	color: #fff;
+	border:none;
+}
+.header .search .search-hot-words{
+    position: absolute;
+    left: 100px;
+    line-height: 50px;
+}
+.header .search .search-hot-words .search-hot-words-item{
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	padding: 0 6px;
+    background:#eee;
+    color: #757575;
+}
+.header .search .search-keyword-list{
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 246px;
+	border:1px solid #ff6700;
+	border-top: none;
+	box-sizing: border-box;
+	background: #fff;
+}
+.header .search .search-keyword-list .keyword-item{
+	height: 30px;
+	line-height: 30px;
+}
+.header .search .search-keyword-list .keyword-item a{
+	display: black;
+	width: 100%;
+	height: 30px;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+.header .search .search-keyword-list .keyword-item .keyword{
+	color: #333;
+}
+.header .search .search-keyword-list .keyword-item .num{
+	float: right;
+	color: #b0b0b0;
+}
+.header .search .search-text:hover{
+	border-color:#999;
+}
+.header .search .search-text:hover + .search-btn{
+    border-color:#999;	
+}
+
+.header .search .search-hot-words .search-hot-words-item:hover{
+   background: #ff6700;
+   color: #fff;
+}
+.header .search:hover .search-text,
+.header .search:hover .search-btn
+{
+	border-color:  #999;
+}
+.header .search .search-text:focus{
+	border-color: #ff6700;
+}
+.header .search .search-text:focus + .search-btn{
+	border-color: #ff6700;
+}
+.header .search .search-text:focus ~ .search-keyword-list{
+	display: block;
+}
+.header .search .search-text:focus ~ .search-hot-words{
+	display: none;
+}
+.header .search .search-keyword-list .keyword-item:hover{
+	background: #eee;
+}
+
 .home{
-   height: 1272px;
-   background: pink;
+    height: 1272px;
+    background: #fff;
 }
+.home .banner{
+	position: relative;
+	height: 460px;
+}
+.home .banner .cate{
+	position: absolute;
+	top: 0;
+    left: 0;
+	width:234px;
+	height: 460px;
+	background: rgba(0,0,0,0.5);
+}
+.home .banner .cate .cate-item{
+	height: 42px;
+	line-height: 42px;
+	font-size: 13px;
+	cursor: pointer;
+}
+.home .banner .carousel{
+	height: 100%;
+	background: pink;
+}
+
+
 .main{
-   height: 2058px;
-   background: gray;
+    height: 2058px;
+    background: gray;
 }
 .footer{
-   height: 277px;
-   background: purple;
+    height: 277px;
+    background: purple;
 }
 .end{
-  height: 148px;
-  background: green;
+   height: 148px;
+   background: green;
 }
