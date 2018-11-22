@@ -784,9 +784,10 @@
 	font-size: 24px;
 	vertical-align: -4px;
 }
+
 .footer .link-item{
-	width: 975px;
-	height: 195px;
+	float: left;
+	margin-left: 110px;
 }
 .end{
    height: 148px;
