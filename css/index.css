@@ -771,7 +771,6 @@
     text-align: center;
     border-right: 1px solid #e0e0e0;
     box-sizing: border-box;
-
 }
 .footer .service-item a{
 	font-size: 16px;
@@ -784,12 +783,92 @@
 	font-size: 24px;
 	vertical-align: -4px;
 }
-
+.footer .links{
+	width: 1226px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 0;
+}
 .footer .link-item{
 	float: left;
-	margin-left: 110px;
+	width: 160px;
+	height: 112px;
+}
+.footer .link-contact{
+	float: right;
+	width: 246px;
+	height: 112px;
+	margin-left: 10px;
+	text-align: center;
+	border-left: 1px solid #e0e0e0;
+}
+.footer .link-item-top{
+	color: #424242;
+	font-size: 14px;
+	margin-bottom: 26px;
+}
+.footer .link-item dd{
+	margin-bottom: 6px;
+}
+.footer .link-item dd a{
+	font-size: 12px;
+	color: #757575;
+}
+.footer .link-item dd a:hover{
+	color: #ff6700;
+}
+.footer .link-contact .phone{
+    font-size: 18px;
+    color: #ff6700;
+    margin-bottom: 10px;
+}
+.footer .link-contact .work-time{
+	margin-bottom: 8px;
+	color: #656161;
+    font-size: 12px;
+}
+.footer .link-contact .des{
+    color: #656161;
+    font-size: 12px;
+}
+.footer .link-contact .des{
+	margin-bottom: 18px;
+}
+.footer .link-contact a{
+   display: inline-block;
+   width: 120px;
+   height: 30px;
+   line-height: 30px;
+   text-align: center;
+   border:1px solid #ff6700;
+   color: #ff6700;
+}
+.footer .link-contact a i{
+	vertical-align: -1px;
+	margin-right: 2px;
+}
+.footer .link-contact a:hover{
+	background: #ff6700;
+	color: #fff;
 }
 .end{
-   height: 148px;
-   background: green;
+    padding:30px 0;
+    background: #fff;
 }
+.end .info .logo{
+    float: left;
+    width: 57px;
+    height: 57px;
+    margin-left: 10px;
+    background-color: #ff6700;
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.end .info .site{
+    float: left;
+}
+.end .info .links{
+    float: right;
+}
+
