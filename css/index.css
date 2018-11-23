@@ -868,7 +868,31 @@
 .end .info .site{
     float: left;
 }
+.end .info .site .nav-link a{
+	color: #757575;
+}
+.end .info .site .nav-link a:hover{
+	color: #ff6700;
+}
+.end .info .site .nav-link .sep{
+	margin:0 0.25em;
+	color: #b0b0b0;
+}
+.end .info .site .decare{
+	font-size: 12px;
+	color: #e0e0e0;
+}
 .end .info .links{
     float: right;
+}
+.end .info .links img{
+	width: 60px;
+	height: 28px;
+}
+.end .slogan{
+	height: 40px;
+	background-image: url(../image/slogan.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
 }
 
