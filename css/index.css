@@ -611,6 +611,10 @@
     font-size: 14px;
     color: #706f6f;
 }
+.flash .timer-box{
+	font-size: 20px;
+	color: #605751;
+}
 .flash .timer-num{
 	display: inline-block;
 	width: 46px;
@@ -623,6 +627,7 @@
 .flash .timer-dash{
 	margin-left: 5px;
 }
+
 .flash .product-item{
 	height:340px;
 	padding: 30px 20px 0px 20px;
