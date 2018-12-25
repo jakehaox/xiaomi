@@ -35,6 +35,12 @@
 					<span class="cart-text">购物车</span>
 					 (<span class="cart-num">0</span>)</a>
 				</div>
+				<div class="cart-content">
+					<div class="loader"></div>
+					<span class="empty-cart">
+					购物车中还没有商品，赶紧选购吧！
+					</span>
+				</div>
 			</div>
 			<div class="user-info">
 				<ul>
@@ -45,16 +51,17 @@
 			</div>
 			
 		</div>
+
 	</section>
 	<header class="header">
-		<div class="container">
+		<div class="container clearfix">
 			<h1 class="logo">
 				<a href="#">
 					小米官网
 				</a>
 			</h1>
 			<nav class="header-nav">
-				<li class="header-nav-item"><a href="#">小米手机</a></li>
+				<ul><li class="header-nav-item"><a href="#">小米手机</a></li>
 				<li class="header-nav-item"><a href="#">红米</a></li>
 				<li class="header-nav-item"><a href="#">电视</a></li>
 				<li class="header-nav-item"><a href="#">笔记本</a></li>
@@ -64,6 +71,7 @@
 				<li class="header-nav-item"><a href="#">智能硬盘</a></li>
 				<li class="header-nav-item"><a href="#">服务</a></li>
 				<li class="header-nav-item"><a href="#">社区</a></li>
+				</ul>
 			</nav>
 			<div class="search">
 				<input type="text" class="search-text">
@@ -90,29 +98,221 @@
 				</div>
 			</div>
 		</div>
+		<div class="header-nav-content">
+			<div class="container clearfix">
+
+				<!-- <ul>
+					<li>
+						<div class="img-box">
+							<a href="">
+								<img src="image/mix1.png" alt="">
+							</a>
+						</div>	
+						<p class="product-name">小米MIX 3</p>	
+						<p class="product-price">3299元</p>	
+						<span class="tag">新品</span>
+					</li>
+					<li>
+						<div class="img-box">
+							<a href="">
+								<img src="image/mix2.png" alt="">
+							</a>
+						</div>	
+						<p class="product-name">小米8 青春版</p>	
+						<p class="product-price">1399元起</p>	
+					</li>
+					<li>
+						<div class="img-box">
+							<a href="">
+								<img src="image/mix3.png" alt="">
+							</a>
+						</div>	
+						<p class="product-name">小米8 屏幕指纹版</p>	
+						<p class="product-price">3199元起</p>	
+					</li>
+					<li>
+						<div class="img-box">
+							<a href="">
+								<img src="image/mix4.png" alt="">
+							</a>
+						</div>	
+						<p class="product-name">小米8 </p>	
+						<p class="product-price">2699元起</p>	
+					</li>
+					<li>
+						<div class="img-box">
+							<a href="">
+								<img src="image/mix5.png" alt="">
+							</a>
+						</div>	
+						<p class="product-name">小米8 SE</p>	
+						<p class="product-price">1799元起</p>
+						<span class="tag">新品</span>	
+					</li>
+					<li>
+						<div class="img-box">
+							<a href="">
+								<img src="image/mix6.png" alt="">
+							</a>
+						</div>	
+						<p class="product-name">小米8 Max 3</p>	
+						<p class="product-price">1699元起</p>	
+					</li>
+				</ul> -->
+			</div>
+		</div>
+		
 	</header>
 	<section class="home">
 		<div class="container">
 			<div class="banner">
-				<div class="cate">
-					<ul>
-						<li class="cate-item">手机 电话卡<i class="iconfont">&#xe623;</i></li>
-						<li class="cate-item">电视 盒子<i class="iconfont">&#xe623;</i></li>
-						<li class="cate-item">笔记本 平板<i class="iconfont">&#xe623;</i></li>
-						<li class="cate-item">家电 插线板<i class="iconfont">&#xe623;</i></li>
-						<li class="cate-item">出行 穿戴<i class="iconfont">&#xe623;</i></li>
-						<li class="cate-item">智能 路由器<i class="iconfont">&#xe623;</i></li>
-						<li class="cate-item">电源 配件<i class="iconfont">&#xe623;</i></li>
-						<li class="cate-item">健康 儿童<i class="iconfont">&#xe623;</i></li>
-						<li class="cate-item">耳机 音响<i class="iconfont">&#xe623;</i></li>
-						<li class="cate-item">生活 箱包<i class="iconfont">&#xe623;</i></li>
-					</ul>			
+				<div class="cart-box">
+					<div class="cate">
+						<ul>
+							<li class="cate-item">手机 电话卡<i class="iconfont">&#xe623;</i></li>
+							<li class="cate-item">电视 盒子<i class="iconfont">&#xe623;</i></li>
+							<li class="cate-item">笔记本 平板<i class="iconfont">&#xe623;</i></li>
+							<li class="cate-item">家电 插线板<i class="iconfont">&#xe623;</i></li>
+							<li class="cate-item">出行 穿戴<i class="iconfont">&#xe623;</i></li>
+							<li class="cate-item">智能 路由器<i class="iconfont">&#xe623;</i></li>
+							<li class="cate-item">电源 配件<i class="iconfont">&#xe623;</i></li>
+							<li class="cate-item">健康 儿童<i class="iconfont">&#xe623;</i></li>
+							<li class="cate-item">耳机 音响<i class="iconfont">&#xe623;</i></li>
+							<li class="cate-item">生活 箱包<i class="iconfont">&#xe623;</i></li>
+						</ul>
+					</div>
+					<div class="cart-content">
+						<!--
+						<ul>
+							<li>
+								<a href="#">
+									<img src="image/aphone1.png" alt="">
+									<span>小米MIX 3</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone2.png" alt="">
+									<span>小米MaX 3</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone3.png" alt="">
+									<span>红米6A</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone4.png" alt="">
+									<span>手机上门维修</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone5.png" alt="">
+									<span>小米8 青春版</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone6.jpg" alt="">
+									<span>小米6 X</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone7.png" alt="">
+									<span>红米Note 5</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone8.jpg" alt="">
+									<span>云服务空间月卡</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone9.png" alt="">
+									<span>小米8 屏幕指纹版</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone10.png" alt="">
+									<span>黑鲨游戏手机 Helo</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone11.jpg" alt="">
+									<span>移动4G+专区</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone12.png" alt="">
+									<span>小米8</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone13.png" alt="">
+									<span>黑鲨游戏手机</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone14.jpg" alt="">
+									<span>对比手机</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone15.png" alt="">
+									<span>小米8 SE</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone16.png" alt="">
+									<span>红米6 Pro/span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone17.jpg" alt="">
+									<span>米粉卡 日租卡</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone18.png" alt="">
+									<span>小米MIX 2S</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone19.png" alt="">
+									<span>红米6</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="image/aphone20.jpg" alt="">
+									<span>小米移动 电话卡</span>
+								</a>
+							</li>
+						</ul>
+					    -->
+				    </div>			
 				</div>
 				<div class="carousel">
 					<ul class="carousel-imgs">
 						<li class="carousel-imgs-item"><img src="image/b4.jpg"></li>
-						<li class="carousel-imgs-item"><img src="image/b2.jpg"></li>
-						<li class="carousel-imgs-item"><img src="image/b3.jpg"></li>
+						<li class="carousel-imgs-item"><img src="image/b5.jpg"></li>
+						<li class="carousel-imgs-item"><img src="image/b6.jpg"></li>
 						<!-- <li class="carousel-imgs-item"><img src="image/b4.jpg"></li> -->
 					</ul>
 					<span class="arrow left-arrow iconfont">&#xe627;</span>
@@ -731,5 +931,7 @@
 		</div>
 	</section>
 </body>
-<script src="css/uli.js"></script>
+<script src="js/date.js"></script>
+<script src="js/util.js"></script>
+<script src="js/index.js"></script>
 </html>
