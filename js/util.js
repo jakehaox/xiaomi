@@ -5,35 +5,6 @@
  * @param  {function} fnEnd [动画结束时执行的函数]
  */
 
- 
-//轮播图
-    
-//倒计时
-	var oTimer = document.querySelector('.timer-box');
-	var aSpan = oTimer.children;
-	var endDate = new Date('2018-12-27 00:00:00');
-    var endTimes = endDate.getTime();
-    var timer = 0;
-     function to2Str(num){
-     	return num < 10 ? '0' + num : '' + num ;
-     }
-	function handleTimer(){
-        var allMinSeconds = endTimes - Date.now();
-         if(allMinSeconds <= 0){
-         	allMinSeconds = 0;
-         	clearInterval(timer);
-         }
-	    var allSeconds = parseInt(allMinSeconds / 1000);
-	    var iHour = parseInt(allSeconds / 3600);
-	    var iMinute = parseInt((allSeconds % 3600) / 60);
-	    var iSecond = (allSeconds % 3600) % 60;
-	    aSpan[0].innerHTML = to2Str(iHour);
-	    aSpan[2].innerHTML = to2Str(iMinute);
-	    aSpan[4].innerHTML = to2Str(iSecond);
-	}
-	timer = setInterval(handleTimer,500);
-	handleTimer();
-
 /*动画*/
 function animate(obj,options,isLinear,fnEnd){
 	//设置默认是匀速动画

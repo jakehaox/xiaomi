@@ -378,73 +378,295 @@ var aCateItemData = [
     [
         {
             url:'https://www.baidu.com',
-            img:'image/tv1.png',
-            name:'米家激光投影电视',
-        },
-        {
-            url:'https://www.baidu.com',
-            img:'image/tv2.png',
-            name:'小米电视4A 65英寸',
-        },
-        {
-            url:'https://www.baidu.com',
-            img:'image/tv3.png',
-            name:'小米电视4X 55英寸',
-        },
-        {
-            url:'https://www.baidu.com',
-            img:'image/tv4.jpg',
-            name:'小米电视4S 55英寸',
-        },
-    ],// 家电 插线板
-
-    [
-        {
-            url:'https://www.baidu.com',
             img:'image/jd1.jpg',
-            name:'米家激光投影电视',
+            name:'米家互联网空调一级能效',
         },
         {
             url:'https://www.baidu.com',
             img:'image/jd2.jpg',
-            name:'小米电视4A 65英寸',
+            name:'米家互联网空调',
         },
         {
             url:'https://www.baidu.com',
             img:'image/jd3.jpg',
-            name:'小米电视4X 55英寸',
+            name:'空气净化器',
         },
         {
             url:'https://www.baidu.com',
             img:'image/jd4.jpg',
-            name:'小米电视4S 55英寸',
+            name:'净水器',
+        },
+    ],// 家电 插线板
+    [
+        {
+            url:'https://www.baidu.com',
+            img:'image/chuxing1.jpg',
+            name:'手环手表',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/chuxing2.jpg',
+            name:'平衡车配件',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/chuxing3.jpg',
+            name:'平衡车配',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/chuxing4.jpg',
+            name:'滑板车',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/chuxing5.jpg',
+            name:'自行车',
         },
     ],// 出行 穿戴
     [
         {
             url:'https://www.baidu.com',
-            img:'image/tv1.png',
-            name:'米家激光投影电视',
+            img:'image/zn1.jpg',
+            name:'路由器',
         },
         {
             url:'https://www.baidu.com',
-            img:'image/tv2.png',
-            name:'小米电视4A 65英寸',
+            img:'image/zn2.jpg',
+            name:'对讲机',
         },
         {
             url:'https://www.baidu.com',
-            img:'image/tv3.png',
-            name:'小米电视4X 55英寸',
+            img:'image/zn3.jpg',
+            name:'智能家庭',
         },
         {
             url:'https://www.baidu.com',
-            img:'image/tv4.jpg',
-            name:'小米电视4S 55英寸',
+            img:'image/zn4.jpg',
+            name:'无人机',
         },
     ],// 智能 路由器
+    [
+        {
+            url:'https://www.baidu.com',
+            img:'image/dianyuan1.jpg',
+            name:'数据线',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/dianyuan2.jpg',
+            name:'内存卡',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/dianyuan3.jpg',
+            name:'插盘',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/dianyuan4.jpg',
+            name:'无线充',
+        },
+    ],// 电源 配件
+    [
+        {
+            url:'https://www.baidu.com',
+            img:'image/jk1.jpg',
+            name:'吹风机',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/jk2.jpg',
+            name:'电子称',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/jk3.jpg',
+            name:'早教启蒙',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/jk4.jpg',
+            name:'体重秤',
+        },
+    ],// 健康 儿童
+    [
+        {
+            url:'https://www.baidu.com',
+            img:'image/ej1.jpg',
+            name:'线控耳机',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/ej2.png',
+            name:'蓝牙耳机K歌版',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/ej3.jpg',
+            name:'蓝牙耳机',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/ej4.jpg',
+            name:'头戴耳机',
+        },
+    ],// 耳机 音响
+    [
+        {
+            url:'https://www.baidu.com',
+            img:'image/box1.jpg',
+            name:'钱包',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/box2.jpg',
+            name:'收纳包',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/box3.png',
+            name:'枕头',
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/box4.jpg',
+            name:'运动鞋',
+        },
+    ],// 生活 箱包
 
-
-
-
+];
+var aTabItemData = [
+    [
+        {
+            url:'https://www.baidu.com',
+            img:'image/p1.jpg',
+            name:'小米6 4GB+64GB 黑色',
+            desc:'变焦双摄 4轴防抖 骁龙835处理器',
+            price:'2299',
+            del:'2599',
+            flag:{
+            	flagName:'off-flag',
+            	content:'新品',
+            }
+            view:{
+                recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/p2.jpg',
+            name:'小米MIX2 全陶瓷尊享版',
+            desc:'全面屏2.0 Unibody全陶瓷',
+            price:'3899',
+            del:'4699',
+            flag:{
+            	flagName:'off-flag',
+            	content:'减200元',
+            }
+            view:{
+                recommend:'我要是不催货还不给我发货,我等了一周了就为来了看NB',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/p1.jpg',
+            name:'小米6 4GB+64GB 黑色',
+            desc:'变焦双摄 4轴防抖 骁龙835处理器',
+            price:'2299',
+            del:'2599',
+            flag:{
+            	flagName:'off-flag',
+            	content:'新品',
+            }
+            view:{
+                recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/p2.jpg',
+            name:'小米MIX2 全陶瓷尊享版',
+            desc:'全面屏2.0 Unibody全陶瓷',
+            price:'3899',
+            del:'4699',
+            flag:{
+            	flagName:'off-flag',
+            	content:'减200元',
+            }
+            view:{
+                recommend:'我要是不催货还不给我发货,我等了一周了就为来了看NB',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/p1.jpg',
+            name:'小米6 4GB+64GB 黑色',
+            desc:'变焦双摄 4轴防抖 骁龙835处理器',
+            price:'2299',
+            del:'2599',
+            flag:{
+            	flagName:'off-flag',
+            	content:'享8折',
+            }
+            view:{
+                recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
+                author:'17337032832的评价',
+            }
+        },
+       {
+            url:'https://www.baidu.com',
+            img:'image/p2.jpg',
+            name:'小米MIX2 全陶瓷尊享版',
+            desc:'全面屏2.0 Unibody全陶瓷',
+            price:'3899',
+            del:'4699',
+            flag:{
+            	flagName:'off-flag',
+            	content:'减200元',
+            }
+            view:{
+                recommend:'我要是不催货还不给我发货,我等了一周了就为来了看NB',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/p1.jpg',
+            name:'小米6 4GB+64GB 黑色',
+            desc:'变焦双摄 4轴防抖 骁龙835处理器',
+            price:'2299',
+            del:'2599',
+            flag:{
+            	flagName:'off-flag',
+            	content:'减100',
+            }
+            view:{
+                recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
+                author:'17337032832的评价',
+            }
+        },
+        {
+        	top:{
+                url:'https://www.baidu.com',
+                img:'image/ca.png',
+                name:'小白摄像机',
+                price:'3899',
+        	}
+        	bottom:{
+                url:'https://www.baidu.com',
+                txt:'浏览更多',
+                tag:'热门',
+                icon:'&#xe615;',
+        	}
+        }
+    ],
+    [],
+    [],
+    [],
 
 ];

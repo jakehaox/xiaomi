@@ -71,8 +71,10 @@
 	line-height: 30px;
 	margin-left: 30px;
 	font-size: 16px;
+	cursor: pointer;
 }
-.hd .more.tab .tab-item:hover,
+/*.hd .more.tab .tab-item:hover,*/
+
 .hd .more.tab .tab-item-active{
     color: #ff6700;
     border-bottom: 2px solid #ff6700;
@@ -751,7 +753,13 @@
 .flash .timer-dash{
 	margin-left: 5px;
 }
-
+.flash .bd .col2{
+	overflow: hidden;
+}
+.flash .bd .product-list{
+	width: 1956px;
+	transition: all 0.3s;
+}
 .flash .product-item{
 	height:340px;
 	padding: 30px 20px 0px 20px;
@@ -780,6 +788,19 @@
 }
 .flash .product-item:nth-child(4){
 	border-top: 1px solid #e53935;
+}
+.flash .product-item:nth-child(5){
+	border-top: 1px solid purple;
+}
+.flash .product-item:nth-child(6){
+	border-top: 1px solid orange;
+}
+.flash .product-item:nth-child(7){
+	border-top: 1px solid red;
+	padding-right: 20px;
+}
+.flash .product-item:nth-child(8){
+	border-top: 1px solid blue;
 }
 
 
