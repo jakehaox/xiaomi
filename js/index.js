@@ -269,35 +269,43 @@ function handleElecProduct(){
     	var html = '';
     	var html = '<ul>';
     	for(var i = 0;i<data.length-1;i++){
-    		/*<li class="product-item product-item-m">
-				    				<a href="">
-							    	<img class="product-img" src="image/p1.jpg" alt="">
-							    	</a>
-								    <h3 class="product-name">小米6 4GB+64GB 黑色</h3>
-								    <p class="product-desc">变焦双摄 4轴防抖 骁龙835处理器</p>
-								    <p class="product-price"><strong>2299元</strong></p>
-								    <span class="flag new-flag">新品</span>
-								    <div class="view">
-								    	<p class="recommend">一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like</p>
-								    	<p class="author">
-								    		来自于<span>17337032832的评价</span>
-								    	</p>
-								    </div>
-				    			</li>
-
-    		*/
+    	
     		html += '<li class="product-item product-item-m">';
-    		html += '   <a href="">';
-    		html += '   <img class="product-img" src="image/p1.jpg" alt="">';
+    		html += '   <a href="'+data[i].url+'">';
+    		html += '   <img class="product-img" src="'+data[i].img+'" alt="">';
     		html += '   </a>';
-    		html += '   <h3 class="product-name">小米6 4GB+64GB 黑色</h3>';
-    		html += '   <p class="product-desc">变焦双摄 4轴防抖 骁龙835处理器</p>';
-    		html += '   <p class="product-price"><strong>2299元</strong></p>';
-    		html += '   <span class="flag new-flag">新品</span>';
-    		html += '';
-    		html += '';
-    		html += '';
+    		html += '   <h3 class="product-name">'+data[i].name+'</h3>';
+    		html += '   <p class="product-desc">'+data[i].desc+'</p>';
+    		html += '   <p class="product-price"><strong>'+data[i].price+'</strong></p>';
+    		if(data[i].flag){
+    			html += '   <span class="flag '+data[i].flag.name+'">'+data[i].flag.content+'</span>';
+    		}
+    		if(data[i].view){
+    			html += '   <div class="view">';
+	    		html += '        <p class="recommend">'+data[i].view.recommend+'</p>';
+	    		html += '        <p class="author">';
+	    		html += '             来自于<span>'+data[i].view.author+'</span>';
+	    		html += '        </p>';
+	    		html += '   </div>';
+    		}
+    		html += '</li>';
     	}
+    	var lastData = data[data.length-1]
+    	
+    	html += '<li class="product-item product-item-s">';
+    	html += '   <a href="'+lastData[i].url+'">';
+    	html += '   <img class="product-img" src="'+lastData[i].img+'" alt="">';
+    	html += '   </a>';
+    	html += '   <h3 class="product-name">'+lastData[i].name+'</h3>';
+    	html += '   <p class="product-price"><strong>'+lastData[i].price+'</strong><span>&nbsp;元</span>';
+    	html += '   </p>';
+    	html += '</li>';
+    	html += '<li class="product-item product-item-s">';
+    	html += '   <a class="more" href="">';
+    	html += '      浏览更多<span>热门</span>';
+    	html += '      <i class="iconfont">&#xe615;</i>';
+    	htnl += '   </a>';
+    	htnl += '</li>';
+    	oElecProduct.innerHTML = html;
     }
-
 }
