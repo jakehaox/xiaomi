@@ -546,9 +546,9 @@ var aTabItemData = [
             price:'2299',
             del:'2599',
             flag:{
-            	flagName:'off-flag',
+            	name:'off-flag',
             	content:'新品',
-            }
+            },
             view:{
                 recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
                 author:'17337032832的评价',
@@ -562,9 +562,9 @@ var aTabItemData = [
             price:'3899',
             del:'4699',
             flag:{
-            	flagName:'off-flag',
+            	name:'off-flag',
             	content:'减200元',
-            }
+            },
             view:{
                 recommend:'我要是不催货还不给我发货,我等了一周了就为来了看NB',
                 author:'17337032832的评价',
@@ -578,9 +578,9 @@ var aTabItemData = [
             price:'2299',
             del:'2599',
             flag:{
-            	flagName:'off-flag',
+            	name:'off-flag',
             	content:'新品',
-            }
+            },
             view:{
                 recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
                 author:'17337032832的评价',
@@ -594,9 +594,9 @@ var aTabItemData = [
             price:'3899',
             del:'4699',
             flag:{
-            	flagName:'off-flag',
+            	name:'off-flag',
             	content:'减200元',
-            }
+            },
             view:{
                 recommend:'我要是不催货还不给我发货,我等了一周了就为来了看NB',
                 author:'17337032832的评价',
@@ -610,9 +610,9 @@ var aTabItemData = [
             price:'2299',
             del:'2599',
             flag:{
-            	flagName:'off-flag',
+            	name:'off-flag',
             	content:'享8折',
-            }
+            },
             view:{
                 recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
                 author:'17337032832的评价',
@@ -626,9 +626,9 @@ var aTabItemData = [
             price:'3899',
             del:'4699',
             flag:{
-            	flagName:'off-flag',
+            	name:'off-flag',
             	content:'减200元',
-            }
+            },
             view:{
                 recommend:'我要是不催货还不给我发货,我等了一周了就为来了看NB',
                 author:'17337032832的评价',
@@ -642,9 +642,9 @@ var aTabItemData = [
             price:'2299',
             del:'2599',
             flag:{
-            	flagName:'off-flag',
+            	name:'off-flag',
             	content:'减100',
-            }
+            },
             view:{
                 recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
                 author:'17337032832的评价',
@@ -656,7 +656,7 @@ var aTabItemData = [
                 img:'image/ca.png',
                 name:'小白摄像机',
                 price:'3899',
-        	}
+        	},
         	bottom:{
                 url:'https://www.baidu.com',
                 txt:'浏览更多',
@@ -665,7 +665,134 @@ var aTabItemData = [
         	}
         }
     ],
-    [],
+    [
+        {
+            url:'https://www.baidu.com',
+            img:'image/p1.jpg',
+            name:'小米6 4GB+64GB 黑色',
+            desc:'变焦双摄 4轴防抖 骁龙835处理器',
+            price:'2299',
+            del:'2599',
+            flag:{
+                name:'off-flag',
+                content:'新品',
+            },
+            view:{
+                recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/p2.jpg',
+            name:'小米MIX2 全陶瓷尊享版',
+            desc:'全面屏2.0 Unibody全陶瓷',
+            price:'3899',
+            del:'4699',
+            flag:{
+                name:'off-flag',
+                content:'减200元',
+            },
+            view:{
+                recommend:'我要是不催货还不给我发货,我等了一周了就为来了看NB',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/p1.jpg',
+            name:'小米6 4GB+64GB 黑色',
+            desc:'变焦双摄 4轴防抖 骁龙835处理器',
+            price:'2299',
+            del:'2599',
+            flag:{
+                name:'off-flag',
+                content:'新品',
+            },
+            view:{
+                recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/p2.jpg',
+            name:'小米MIX2 全陶瓷尊享版',
+            desc:'全面屏2.0 Unibody全陶瓷',
+            price:'3899',
+            del:'4699',
+            flag:{
+                name:'off-flag',
+                content:'减200元',
+            },
+            view:{
+                recommend:'我要是不催货还不给我发货,我等了一周了就为来了看NB',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/p1.jpg',
+            name:'小米6 4GB+64GB 黑色',
+            desc:'变焦双摄 4轴防抖 骁龙835处理器',
+            price:'2299',
+            del:'2599',
+            flag:{
+                name:'off-flag',
+                content:'享8折',
+            },
+            view:{
+                recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
+                author:'17337032832的评价',
+            }
+        },
+       {
+            url:'https://www.baidu.com',
+            img:'image/p2.jpg',
+            name:'小米MIX2 全陶瓷尊享版',
+            desc:'全面屏2.0 Unibody全陶瓷',
+            price:'3899',
+            del:'4699',
+            flag:{
+                name:'off-flag',
+                content:'减200元',
+            },
+            view:{
+                recommend:'我要是不催货还不给我发货,我等了一周了就为来了看NB',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            url:'https://www.baidu.com',
+            img:'image/p1.jpg',
+            name:'小米6 4GB+64GB 黑色',
+            desc:'变焦双摄 4轴防抖 骁龙835处理器',
+            price:'2299',
+            del:'2599',
+            flag:{
+                name:'off-flag',
+                content:'减100',
+            },
+            view:{
+                recommend:'一直想买个小米手机,果然不失所望,大爱 啊哈哈哈哈哈哈哈 I very like',
+                author:'17337032832的评价',
+            }
+        },
+        {
+            top:{
+                url:'https://www.baidu.com',
+                img:'image/ca.png',
+                name:'小白摄像机',
+                price:'3899',
+            },
+            bottom:{
+                url:'https://www.baidu.com',
+                txt:'浏览更多',
+                tag:'热门',
+                icon:'&#xe615;',
+            }
+        }
+    ],
     [],
     [],
 

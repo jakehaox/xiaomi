@@ -212,7 +212,7 @@ function handleCountdown(){
     //倒计时
 	var oTimer = document.querySelector('.timer-box');
 	var aSpan = oTimer.children;
-	var endDate = new Date('2018-12-27 00:00:00');
+	var endDate = new Date('2018-12-29 00:00:00');
     var endTimes = endDate.getTime();
     var timer = 0;
      function to2Str(num){
@@ -290,20 +290,19 @@ function handleElecProduct(){
     		}
     		html += '</li>';
     	}
-    	var lastData = data[data.length-1]
-    	
+    	var lastData = data[data.length-1];
     	html += '<li class="product-item product-item-s">';
-    	html += '   <a href="'+lastData[i].url+'">';
-    	html += '   <img class="product-img" src="'+lastData[i].img+'" alt="">';
+    	html += '   <a href="'+lastData.top.url+'">';
+    	html += '   <img class="product-img" src="'+lastData.top.img+'" alt="">';
     	html += '   </a>';
-    	html += '   <h3 class="product-name">'+lastData[i].name+'</h3>';
-    	html += '   <p class="product-price"><strong>'+lastData[i].price+'</strong><span>&nbsp;元</span>';
+    	html += '   <h3 class="product-name">'+lastData.top.name+'</h3>';
+    	html += '   <p class="product-price"><strong>'+lastData.top.price+'</strong><span>&nbsp;元</span>';
     	html += '   </p>';
     	html += '</li>';
     	html += '<li class="product-item product-item-s">';
-    	html += '   <a class="more" href="">';
-    	html += '      浏览更多<span>热门</span>';
-    	html += '      <i class="iconfont">&#xe615;</i>';
+    	html += '   <a class="more" href="'+lastData.bottom.url+'">';
+    	html += '      '+lastData.bottom.txt+'<span>'+loadData.bottom.tag+'</span>';
+    	html += '      <i class="iconfont">'+lastData.bottom.icon+'</i>';
     	htnl += '   </a>';
     	htnl += '</li>';
     	oElecProduct.innerHTML = html;
