@@ -251,6 +251,8 @@ function handleElecProduct(){
    //1.获取元素
     var aTabItem = document.querySelectorAll('.elec .tab .tab-item');
     var oElecProduct = document.querySelector('.elec-product');
+    	// console.log(oElecProduct);
+
     //2.添加事件
     for(var i = 0;i<aTabItem.length;i++){
     	aTabItem[i].index = i;
@@ -267,9 +269,7 @@ function handleElecProduct(){
     function loadData(index){
     	var data = aTabItemData[index];
     	var html = '';
-    	var html = '<ul>';
     	for(var i = 0;i<data.length-1;i++){
-    	
     		html += '<li class="product-item product-item-m">';
     		html += '   <a href="'+data[i].url+'">';
     		html += '   <img class="product-img" src="'+data[i].img+'" alt="">';
@@ -301,10 +301,10 @@ function handleElecProduct(){
     	html += '</li>';
     	html += '<li class="product-item product-item-s">';
     	html += '   <a class="more" href="'+lastData.bottom.url+'">';
-    	html += '      '+lastData.bottom.txt+'<span>'+loadData.bottom.tag+'</span>';
+    	html += '      '+lastData.bottom.txt+'<span>'+lastData.bottom.tag+'</span>';
     	html += '      <i class="iconfont">'+lastData.bottom.icon+'</i>';
-    	htnl += '   </a>';
-    	htnl += '</li>';
+    	html += '   </a>';
+    	html += '</li>';
     	oElecProduct.innerHTML = html;
     }
 }
